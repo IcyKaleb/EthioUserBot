@@ -29,7 +29,6 @@
 
 ## Online Telegram-String Generator
 
-
 [![Run on Repl.it](https://generatestringsession.spechide.repl.run)](https://generatestringsession.xalebg.repl.run)
 
 
