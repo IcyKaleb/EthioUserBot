@@ -4,4 +4,4 @@
 
 # ወደ Heroku deploy ለማረግ ከታች ያለችውን button ይጫኑ
 
-[Deploy](https://dashboard.heroku.com/new-app?template=https://github.com/ethiopianx/ethiouserbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
