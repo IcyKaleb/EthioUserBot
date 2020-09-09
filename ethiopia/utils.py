@@ -16,9 +16,9 @@ from userbot import bot
 from telethon import events
 from var import Var
 from pathlib import Path
-from userbot.uniborgConfig import Config
-from userbot import LOAD_PLUG
-from userbot import CMD_LIST
+from ethiopia.uniborgConfig import Config
+from ethiopia import LOAD_PLUG
+from ethiopia import CMD_LIST
 import re
 import logging
 import inspect
@@ -93,12 +93,12 @@ def load_module(shortname):
     if shortname.startswith("__"):
         pass
     elif shortname.endswith("_"):
-        import userbot.utils
+        import ethiopia.utils
         import sys
         import importlib
         from pathlib import Path
-        path = Path(f"userbot/plugins/{shortname}.py")
-        name = "userbot.plugins.{}".format(shortname)
+        path = Path(f"ethiopia/ethiopia/{shortname}.py")
+        name = "ethiopia.ethiopia.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
@@ -108,8 +108,8 @@ def load_module(shortname):
         import sys
         import importlib
         from pathlib import Path
-        path = Path(f"userbot/plugins/{shortname}.py")
-        name = "userbot.plugins.{}".format(shortname)
+        path = Path(f"ethiopia/ethiopia/{shortname}.py")
+        name = "ethiopia.ethiopia.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         mod.bot = bot
@@ -136,7 +136,7 @@ def remove_plugin(shortname):
             del LOAD_PLUG[shortname]
 
         except:
-            name = f"userbot.plugins.{shortname}"
+            name = f"ethiopia.ethiopia.{shortname}"
 
             for i in reversed(range(len(bot._event_builders))):
                 ev, cb = bot._event_builders[i]
@@ -195,7 +195,7 @@ def admin_cmd(pattern=None, **args):
 
 from telethon import events
 import asyncio
-from userbot import bot
+from ethiopia import bot
 from traceback import format_exc
 from time import gmtime, strftime
 import math
