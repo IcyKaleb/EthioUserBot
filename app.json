@@ -21,17 +21,19 @@
       "description": "Where downloaded files will go.",
       "value": "ethiopia",
       "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "Very needed to update.",
+      "value": "ethiopia",
+      "required": true
+   } 
+    "HEROKU_APP_NAME": {
+      "description": "Very needed to update.",
+      "value": "ethiopia",
+      "required": true
     }, 
     "ETHIO_NAME": {
       "description": "Very needed if you want the userbot to work properly For example KenXer",
-      "value": ""
-    },
-    "USERNAME": {
-      "description": "Enter your username for example @xaleb",
-      "value": ""
-    },
-    "USERBOT_NAME": {
-      "description": "Enter your bot username here as you want.for example: Lion"
       "value": ""
     },
     "APP_ID": {
