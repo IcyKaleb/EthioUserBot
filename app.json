@@ -1,6 +1,6 @@
 {
-  "name": "X-tra Telegram",
-  "description": "Userbot created by a SNAPDRAGON and custom fork by ANUBIS\n\n join https://t.me/XtraTgChat for any problems or support",
+  "name": "Ethio UserBot",
+  "description": "Userbot created by a @EthioUserBot.\n\n join https://t.me/ethiouserbot for any problems or support",
   "logo": "https://telegra.ph/file/1be6c59f53fef57b5745b.jpg",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Dark-Princ3/X-tra-Telegram/",
+  "repository": "https://github.com/EthiopianX/EthioUserBot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -19,15 +19,15 @@
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
-      "value": "kenxer",
+      "value": "ethiopia",
       "required": false
     }, 
-    "ALIVE_NAME": {
+    "ETHIO_NAME": {
       "description": "Very needed if you want the userbot to work properly For example KenXer",
       "value": ""
     },
     "USERNAME": {
-      "description": "Enter your username for example @KenXer",
+      "description": "Enter your username for example @xaleb",
       "value": ""
     },
     "USERBOT_NAME": {
