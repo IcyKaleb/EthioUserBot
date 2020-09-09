@@ -12,15 +12,15 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-from userbot import bot
+from ethiopia import bot
 from sys import argv
 import sys
 from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 import os
 from telethon import TelegramClient
 from var import Var
-from userbot.utils import load_module
-from userbot import LOAD_PLUG, BOTLOG_CHATID, LOGS
+from ethiopoa.utils import load_module
+from ethiopia import LOAD_PLUG, BOTLOG_CHATID, LOGS
 from pathlib import Path
 import asyncio
 import telethon.utils
@@ -64,7 +64,7 @@ else:
     
 
 import glob
-path = 'userbot/plugins/*.py'
+path = 'ethiopia/ethiopia/*.py'
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
