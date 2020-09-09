@@ -12,7 +12,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-from userbot import bot
+from ethiopia import bot
 from telethon import events
 from userbot.utils import command, remove_plugin, load_module
 from var import Var
@@ -36,13 +36,13 @@ async def install(event):
         try:
             downloaded_file_name = await event.client.download_media(  # pylint:disable=E0602
                 await event.get_reply_message(),
-                "userbot/plugins/"  # pylint:disable=E0602
+                "ethiopia/ethiopia/"  # pylint:disable=E0602
             )
             if "(" not in downloaded_file_name:
                 path1 = Path(downloaded_file_name)
                 shortname = path1.stem
                 load_module(shortname.replace(".py", ""))
-                await event.edit("Installed Plugin `{}`".format(os.path.basename(downloaded_file_name)))
+                await event.edit("Installed Plugin {}".format(os.path.basename(downloaded_file_name)))
             else:
                 os.remove(downloaded_file_name)
                 await event.edit("Errors! This plugin is already installed/pre-installed.")
@@ -58,7 +58,7 @@ async def send(event):
         return
     message_id = event.message.id
     input_str = event.pattern_match["shortname"]
-    the_plugin_file = "./userbot/plugins/{}.py".format(input_str)
+    the_plugin_file = "./ethiopia/ethiopia/{}.py".format(input_str)
     start = datetime.now()
     await event.client.send_file(  # pylint:disable=E0602
         event.chat_id,
