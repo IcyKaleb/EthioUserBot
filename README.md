@@ -27,3 +27,9 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
+## Online Telegram-String Generator
+
+
+[![Run on Repl.it](https://generatestringsession.spechide.repl.run)](https://generatestringsession.xalebg.repl.run)
+
+
