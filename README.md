@@ -1,4 +1,4 @@
-# Ethio <Userbot> 🇪🇹
+# Ethio Userbot 🇪🇹
 
 <p align="center">
 <img src="https://telegra.ph/file/cbc375cdf9ab13c790cf8.jpg" alt="Ethio Userbot">
