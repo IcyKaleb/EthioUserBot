@@ -1,1 +1,1 @@
-userbot: python -m userbot
+ethiopia: python -m ethiopia
