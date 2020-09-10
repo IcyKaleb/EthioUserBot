@@ -12,7 +12,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-from userbot import bot
+from ethiopia import bot
 from telethon import events
 from var import Var
 from pathlib import Path
