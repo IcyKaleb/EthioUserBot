@@ -19,7 +19,7 @@ from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 import os
 from telethon import TelegramClient
 from var import Var
-from ethiopoa.utils import load_module
+from ethiopia.utils import load_module
 from ethiopia import LOAD_PLUG, BOTLOG_CHATID, LOGS
 from pathlib import Path
 import asyncio
