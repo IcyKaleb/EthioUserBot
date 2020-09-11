@@ -104,7 +104,7 @@ def load_module(shortname):
         spec.loader.exec_module(mod)
         print("Successfully (re)imported "+shortname)
     else:
-        import userbot.utils
+        import ethiopia.utils
         import sys
         import importlib
         from pathlib import Path
