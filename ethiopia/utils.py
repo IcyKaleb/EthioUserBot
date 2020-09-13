@@ -125,7 +125,7 @@ def load_module(shortname):
         sys.modules["ethiopia.events"] = userbot.utils
         spec.loader.exec_module(mod)
         # for imports
-        sys.modules["userbot.plugins."+shortname] = mod
+        sys.modules["ethiopia.ethiopia."+shortname] = mod
         print("Successfully (re)imported "+shortname)
 
 def remove_plugin(shortname):
