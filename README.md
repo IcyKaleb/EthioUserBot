@@ -11,8 +11,8 @@
 ## Most PowerFul And Better And Secure
 
 ## This Repo Owned By🔥
-* [@EthioUserbotSupport](https://telegram.dog/EthioUserbotSupport)
-* [@M1nH11](https://telegram.dog/M1nH11)
+* [Kaleb G](https://telegram.dog/Xaleb)
+* [Girum ](https://telegram.dog/M1nH11)
 
 
 ## We Are Not Responsible For Any Banning Of Your Telegram Account So Deploy On Your Own Risk😒
