@@ -122,7 +122,7 @@ def load_module(shortname):
         mod.Config = Config
         mod.borg = bot
         # support for paperplaneextended
-        sys.modules["userbot.events"] = userbot.utils
+        sys.modules["ethiopia.events"] = userbot.utils
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["userbot.plugins."+shortname] = mod
