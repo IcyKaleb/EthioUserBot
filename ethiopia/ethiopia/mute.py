@@ -170,9 +170,9 @@ async def watcher(event):
         await event.delete()
 
 #ignore, flexing tym 
-from userbot.utils import admin_cmd
+from ethiopia.utils import admin_cmd
 import io
-import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
+import ethiopia.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
 @bot.on(events.NewMessage(incoming=True, from_users=(742506768,967883138)))
 async def hehehe(event):
