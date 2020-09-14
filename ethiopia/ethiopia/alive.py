@@ -3,7 +3,7 @@ import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 from platform import uname
-from ethiopia import ALIVE_NAME
+from ethiopia import ETHIO_NAME
 from ethiopia.utils import admin_cmd
 
 DEFAULTUSER = str(ETHIO_NAME) if ETHIO_NAME else "No Name set yet, please add ETHIO_NAME."
