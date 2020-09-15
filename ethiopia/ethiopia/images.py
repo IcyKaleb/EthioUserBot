@@ -9,7 +9,7 @@ from ethiopia.googol_images import googleimagesdownload
 import os
 import shutil
 from re import findall
-from userbot.utils import admin_cmd
+from ethiopia.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="img ?(.*)"))
