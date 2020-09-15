@@ -12,7 +12,7 @@
 
 ## This Repo Owned By🔥
 * [Kaleb G](https://telegram.dog/Xaleb)
-* [Girum ](https://telegram.dog/M1nH11)
+* [Girum](https://telegram.dog/M1nH11)
 
 
 ## We Are Not Responsible For Any Banning Of Your Telegram Account So Deploy On Your Own Risk😒
@@ -29,6 +29,6 @@
 
 ## Online Telegram-String Generator
 
-[![Run on Repl.it](https://generatestringsession.spechide.repl.run)](https://generatestringsession.xalebg.repl.run)
+[![Run on Repl.it](https://generatestringsession.xalebg.repl.run)
 
 
