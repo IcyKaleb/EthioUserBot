@@ -24,12 +24,12 @@
     },
     "HEROKU_API_KEY": {
       "description": "Very needed to update.",
-      "value": "ethiopia",
+      "value": "",
       "required": true
    },
     "HEROKU_APP_NAME": {
       "description": "Very needed to update.",
-      "value": "ethiopia",
+      "value": "",
       "required": true
     }, 
     "ETHIO_NAME": {
