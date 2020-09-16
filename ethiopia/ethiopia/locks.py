@@ -4,7 +4,7 @@ API Options: msg, media, sticker, gif, gamee, ainline, gpoll, adduser, cpin, cha
 DB Options: bots, commands, email, forward, url"""
 
 from telethon import events, functions, types
-from ethiopia.plugins.sql_helper.locks_sql import update_lock, is_locked, get_locks
+from ethiopia.ethiopia.sql_helper.locks_sql import update_lock, is_locked, get_locks
 from ethiopia.utils import admin_cmd
 
 
