@@ -18,7 +18,7 @@ from ethiopia.utils import command, remove_plugin, load_module
 from var import Var
 import importlib
 from pathlib import Path
-from userbot import LOAD_PLUG
+from ethiopia import LOAD_PLUG
 import sys
 import asyncio
 import traceback
