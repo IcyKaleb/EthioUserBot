@@ -28,7 +28,7 @@ from datetime import datetime
 
 DELETE_TIMEOUT = 5
 
-@command(pattern="^*install", outgoing=True)
+@command(pattern="^.install", outgoing=True)
 async def install(event):
     if event.fwd_from:
         return
