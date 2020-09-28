@@ -9,7 +9,7 @@ from asyncio import sleep
 
 from telethon.errors import rpcbaseerrors
 
-from ethiopoa import BOTLOG, BOTLOG_CHATID, CMD_HELP
+from ethiopia import BOTLOG, BOTLOG_CHATID, CMD_HELP
 from ethiopia.utils import register, errors_handler
 
 
