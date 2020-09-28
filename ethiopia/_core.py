@@ -14,7 +14,7 @@
 
 from ethiopia import bot
 from telethon import events
-from userbot.utils import command, remove_plugin, load_module
+from ethiopia.utils import command, remove_plugin, load_module
 from var import Var
 import importlib
 from pathlib import Path
