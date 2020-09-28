@@ -23,7 +23,7 @@ import sys
 import asyncio
 import traceback
 import os
-import userbot.utils
+import ethiopia.utils
 from datetime import datetime
 
 DELETE_TIMEOUT = 5
