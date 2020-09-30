@@ -52,7 +52,7 @@ async def install(event):
     await asyncio.sleep(DELETE_TIMEOUT)
     await event.delete()
 
-@command(pattern="^*send (?P<shortname>\w+)$", outgoing=True)
+@command(pattern="^send (?P<shortname>\w+)$", outgoing=True)
 async def send(event):
     if event.fwd_from:
         return
