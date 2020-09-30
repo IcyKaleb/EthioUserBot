@@ -12,7 +12,7 @@ DEFAULTUSER = str(ETHIO_NAME) if ETHIO_NAME else "No Name set yet, please add ET
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("EthioUserBot is running.\n\n"
-                     "Telethon version: 6.9.0\nPython: 3.7.3\n"
+                     "System: Linux\nTelethon version: 6.9.0\nPython: 3.7.3\n"
                      "UserBot created by: @EthioUserBot"
-                     f"User: {DEFAULTUSER}\n\n"
-                     "Repo: https://github.com/EthiopianX/EthioUserBot")
+                     f"\nUser: {DEFAULTUSER}\n"
+                     "")
