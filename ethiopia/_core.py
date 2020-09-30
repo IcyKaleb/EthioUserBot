@@ -73,7 +73,7 @@ async def send(event):
     await asyncio.sleep(DELETE_TIMEOUT)
     await event.delete()
 
-@command(pattern="^*unload (?P<shortname>\w+)$", outgoing=True)
+@command(pattern="^unload (?P<shortname>\w+)$", outgoing=True)
 async def unload(event):
     if event.fwd_from:
         return
@@ -84,7 +84,7 @@ async def unload(event):
     except Exception as e:
         await event.edit("Successfully unload {shortname}\n{}".format(shortname, str(e)))
 
-@command(pattern="^*load (?P<shortname>\w+)$", outgoing=True)
+@command(pattern="^load (?P<shortname>\w+)$", outgoing=True)
 async def load(event):
     if event.fwd_from:
         return
