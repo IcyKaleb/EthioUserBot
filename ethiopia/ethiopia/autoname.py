@@ -5,7 +5,7 @@ import time
 from telethon.tl import functions
 from telethon.errors import FloodWaitError
 from uniborg.util import admin_cmd
-from userbot import ETHIO_NAME
+from ethiopia import ETHIO_NAME
 
 
 DEL_TIME_OUT = 60
