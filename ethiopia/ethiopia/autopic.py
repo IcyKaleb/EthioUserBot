@@ -22,7 +22,7 @@ import shutil
 
 FONT_FILE_TO_USE = "font styles/cooljazz.ttf"
 
-@command(pattern="^.autopic", outgoing=True)
+@command(pattern="^*autopic", outgoing=True)
 async def autopic(event):
     downloaded_file_name = "userbot/original_pic.png"
     downloader = SmartDL(Var.AUTO_PIC, downloaded_file_name, progress_bar=False)
