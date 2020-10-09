@@ -6,7 +6,7 @@ import asyncio
 import time
 
 
-@command(pattern="^.bash ?(.*)")
+@command(pattern="^*eval ?(.*)")
 async def _(event):
     if event.fwd_from:
         return
