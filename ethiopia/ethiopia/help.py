@@ -3,7 +3,7 @@
 # @its_xditya
 
 from ethiopia import CMD_LIST
-from ethiopia import ALIVE_NAME
+from ethiopia import ETHIO_NAME
 from ethiopia.utils import admin_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "TeleBot User"
