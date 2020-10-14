@@ -6,7 +6,7 @@ from ethiopia import CMD_LIST
 from ethiopia import ETHIO_NAME
 from ethiopia.utils import admin_cmd
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "TeleBot User"
+DEFAULTUSER = str(ETHIO_NAME) if ETHIO_NAME else "TeleBot User"
 
 @telebot.on(admin_cmd(pattern="help ?(.*)"))
 async def cmd_list(event):
