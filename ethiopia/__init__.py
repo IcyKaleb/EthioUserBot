@@ -102,6 +102,9 @@ if bool(ENV):
     # OpenWeatherMap API Key
     OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
 
+    #Custom PM pic
+    PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
+
     # Anti Spambot Config
     ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
     
