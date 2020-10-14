@@ -15,4 +15,3 @@ async def amireallyalive(alive):
                      "**SYSTEM**: Linux\nTelethon version: 6.9.0\nPython: 3.7.3\n"
                      f"**USER**: {DEFAULTUSER}\n\n"
                      "**JOIN**: @EthioUserbot"
-    
