@@ -10,7 +10,7 @@ import traceback
 import asyncio
 import sys
 import io
-from ethiopia.util import admin_cmd
+from ethiopia.utils import admin_cmd
 
 
 @borg.on(admin_cmd("eval", allow_sudo=True))
