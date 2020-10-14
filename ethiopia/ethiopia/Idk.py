@@ -1,4 +1,3 @@
-❡ɨƦ⩏៣ ×_×:
 from ethiopia import CMD_LIST
 from ethiopia.utils import admin_cmd
 
