@@ -10,11 +10,6 @@
 🌟 Best User Bot To Manage Your Telegram Account🔥
 ## Most PowerFul And Better And Secure
 
-## This Repo Owned By🔥
-* [Kaleb G](https://telegram.dog/Xaleb)
-* [Girum](https://telegram.dog/M1nH11)
-
-
 ## Official Support💖
 <a href="https://t.me/EthioUserBot"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 <a href="https://t.me/EthioUserbotChat"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
