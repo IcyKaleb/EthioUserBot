@@ -14,5 +14,4 @@ async def amireallyalive(alive):
     await alive.edit("**Ethio <UserBot>🇪🇹** \n\n"
                      "**System**: Linux\nTelethon version: 6.9.0\nPython: 3.7.3\n"
                      f"**User: {DEFAULTUSER}"
-                     
-       
+    
