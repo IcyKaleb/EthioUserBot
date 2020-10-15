@@ -24,7 +24,7 @@ import datetime
 from telethon import events
 from telethon.tl import functions, types
 from ethiopia.utils import admin_cmd
-from ethiopia import ALIVE_NAME
+from ethiopia import ETHIO_NAME
 
 ETHIO_NAME = str(ETHIO_NAME) if ETHIO_NAME else "EthioUserBot"
 global USER_AFK  # pylint:disable=E0602
