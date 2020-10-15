@@ -1,7 +1,7 @@
 # Ethio Userbot 🇪🇹
 
 <p align="center">
-<img src="https://telegra.ph/file/cbc375cdf9ab13c790cf8.jpg" alt="Ethio Userbot">
+<img src="https://telegra.ph/file/0bdef0088deecc05bf991.png" alt="Ethio Userbot">
 
 # በ ኢትዮጵያ የመጀመሪያው የ Telegram Userbot 
 
