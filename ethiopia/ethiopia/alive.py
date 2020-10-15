@@ -12,7 +12,7 @@ pm_caption += "SYSTEM: Linux**\n"
 pm_caption += "TELETHON VERSION: 6.9.0\nPython:3.7.3\n"
 pm_caption += f"My Boss 💪 : {DEFAULTUSER} \n"
 pm_caption += "UserBot created by 😎 : @EthioUserBot\n\n"
-pm_caption += "Deploy Your Own : [Repo](https://github.com/Kalebpy/EthioUserBot)\n"
+pm_caption += "Deploy Your Own : [Repo](https://github.com/EthioUserBot/EthioUserBot)\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def friday(alive):
