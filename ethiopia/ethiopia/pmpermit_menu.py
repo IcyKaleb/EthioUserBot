@@ -8,7 +8,7 @@ import asyncio
 import io 
 import telethon.sync
 from telethon.tl.functions.users import GetFullUserRequest
-import ethiopia.plugins.sql_helper.pmpermit_sql as pmpermit_sql
+import ethiopia.ethiopia.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events, errors, functions, types
 from ethiopia import ETHIO_NAME
 from ethiopia.utils import admin_cmd
