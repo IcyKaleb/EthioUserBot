@@ -1,6 +1,6 @@
 import asyncio
 import io
-import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
+import ethiopia.ethiopia.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events, errors, functions, types
 from ethiopia import ETHIO_NAME, LESS_SPAMMY
