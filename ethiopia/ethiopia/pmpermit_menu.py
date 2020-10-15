@@ -26,10 +26,10 @@ from telethon.tl.functions.users import GetFullUserRequest
 import ethiopia.ethiopia.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events, errors, functions, types
 from ethiopia import ETHIO_NAME, LESS_SPAMMY
-from ethiopi.utils import admin_cmd
+from ethiopia.utils import admin_cmd
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba, check pinned message in @XtraTgBot"
+DEFAULTUSER = str(ETHIO_NAME) if ETHIO_NAME else "EthioUserBot"
 PREV_REPLY_MESSAGE = {}
 
 
