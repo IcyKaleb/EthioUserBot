@@ -3,9 +3,9 @@
 import asyncio
 from telethon import events
 from uniborg.util import admin_cmd
-from userbot import ALIVE_NAME
+from ethiopia import ETHIO_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
+DEFAULTUSER = str(ETHIO_NAME) if ETHIO_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/0bdef0088deecc05bf991.png"
 pm_caption = "Ethio <Userbot> 🇪🇹 is running\n\n"
 pm_caption += "SYSTEM: Linux**\n"
