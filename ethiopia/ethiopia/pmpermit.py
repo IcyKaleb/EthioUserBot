@@ -5,7 +5,7 @@ import io
 import ethiopia.ethiopia.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events, errors, functions, types
-from ethiopia import ETHIO_NAME, CUSTOM_PMPERMIT
+from ethiopia import ETHIO_NAME, PMPERMIT_PIC
 from ethiopia.utils import admin_cmd
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
