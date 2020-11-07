@@ -7,7 +7,7 @@ from datetime import datetime
 from selenium import webdriver
 
 
-@borg.on(slitu.admin_cmd(pattern="ss (.*)"))
+@borg.on(admin_cmd(pattern="ss (.*)"))
 async def _(event):
     if event.fwd_from:
         return
